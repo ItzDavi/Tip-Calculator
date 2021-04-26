@@ -1,2 +1,6 @@
 # Tip Calculator
- Useless HTML, CSS and JS tip calculator
+ Useless tip calculator wrote using:
+ 
+ HTML
+ CSS - Bootstrap v5.0
+ JS
