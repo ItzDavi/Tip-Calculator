@@ -16,12 +16,12 @@
 
         <div class="bill-check mt-5">
           <p>How much was your bill ?</p>
-          <input type="text" name="bill-amount" placeholder="Bill Amount" required> $
+          <input type="text" name="bill-amount" placeholder="Bill Amount" id="bill-amount" required> $
         </div>
 
         <div class="service-check mt-4">
           <p>How was your service ?</p>
-          <select class="" name="service-quality" required>
+          <select class="" name="service-quality" id="service-quality" required>
             <option disabled selected value="0">Choose an option</option>
             <option value="bad">Bad</option>
             <option value="ntb">Not that bad</option>
@@ -33,11 +33,11 @@
 
         <div class="tip-split mt-4">
           <p>How many people are sharing the tip</p>
-          <input type="number" name="tip-sharing" placeholder="1">
+          <input type="number" name="tip-sharing" placeholder="1" id="tip-sharing" required>
         </div>
 
         <div class="calculate-button mt-5">
-          <button type="button" name="button" class="btn btn-primary">Calculate</button>
+          <button type="button" name="button-calculate" class="btn btn-primary" id="button-calculate">Calculate</button>
         </div>
 
         <div class="tip-splitted mt-5">
